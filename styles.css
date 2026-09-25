@@ -1,3 +1,16 @@
+/* Reset and Page Layout */
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+
+}
 /* Card Component */
 .card {
  background-color: #ffffff;
@@ -62,5 +75,3 @@ body.dark-mode .card {
  background-color: #2b2b3d;
  color: #ffffff;
 }
-
-
